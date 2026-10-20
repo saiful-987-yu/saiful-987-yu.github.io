@@ -5,9 +5,24 @@
 **ড্রাইভার, ডাক্তার, দোকান, মসজিদ ও জরুরি সেবা — আপনার এলাকার সব ফোন নম্বর এক জায়গায়।**
 *Drivers, doctors, shops, mosques and emergency services — your area's contacts in one place.*
 
-[🌐 ওয়েবসাইট খুলুন · Open the site](https://saiful-987-yu.github.io/amader-elaka/)
+[🌐 ওয়েবসাইট খুলুন · Open the site](https://saiful-987-yu.github.io/amader-elaka/) &nbsp;·&nbsp; [📱 অ্যাপ ডাউনলোড · Download the app](https://github.com/saiful-987-yu/amader-elaka/releases/latest/download/Amader-Elaka.apk) &nbsp;·&nbsp; [📦 Releases](https://github.com/saiful-987-yu/amader-elaka/releases)
 
 </div>
+
+---
+
+## 📱 অ্যাপ ইনস্টল করুন · Install the app
+
+| ধাপ · Step | করণীয় · What to do |
+|---|---|
+| 1 | উপরের **অ্যাপ ডাউনলোড** বাটনে চাপ দিন · Tap **Download the app** above |
+| 2 | ডাউনলোড হওয়া `Amader-Elaka.apk` ফাইলটি খুলুন · Open the downloaded `Amader-Elaka.apk` |
+| 3 | ফোন চাইলে "এই উৎস থেকে ইনস্টলের অনুমতি" চালু করুন · If asked, allow installs from this source |
+| 4 | **Install** চাপুন · Tap **Install** |
+
+> [!TIP]
+> একবার ইনস্টল করলে সাইট আপডেটের সাথে অ্যাপ নিজে থেকেই আপডেট হয়, আবার APK নামাতে হয় না। আগে ইনস্টল করা পুরোনো অ্যাপ থাকলে সেটা মুছে নতুনটা দিন।
+> *Once installed, the app updates itself whenever the website is updated. If you have an older copy, remove it first.*
 
 ---
 
@@ -17,8 +32,9 @@
 
 This is the **root repository** of the `saiful-987-yu.github.io` domain. It holds no website code. Its only job is to verify the **Amader Elaka** Android app against this domain (Digital Asset Links), so the app opens full-screen without a browser address bar.
 
-> মূল ওয়েবসাইট ও সব সোর্স কোড আছে আলাদা রিপোজিটরিতে: **`amader-elaka`**
-> The actual website and its source code live in the separate **`amader-elaka`** repository.
+> [!NOTE]
+> মূল ওয়েবসাইট ও সব সোর্স কোড আছে আলাদা রিপোজিটরিতে: [**`amader-elaka`**](https://github.com/saiful-987-yu/amader-elaka)
+> The actual website and its source code live in the separate **`amader-elaka`** repository, together with the APK in its *Releases*.
 
 ---
 
@@ -30,8 +46,9 @@ This is the **root repository** of the `saiful-987-yu.github.io` domain. It hold
 | `.nojekyll` | GitHub Pages-কে `.well-known` ফোল্ডার প্রকাশ করতে দেয় · Lets GitHub Pages publish the `.well-known` folder |
 | `README.md` | এই ডকুমেন্ট · This document |
 
-⚠️ **`.well-known` ফোল্ডার ও `.nojekyll` ফাইল কখনো মুছবেন না।** মুছলে অ্যাপে আবার অ্যাড্রেস বার দেখা যাবে।
-**Never delete `.well-known` or `.nojekyll`.** Without them the app will show the browser address bar again.
+> [!CAUTION]
+> **`.well-known` ফোল্ডার ও `.nojekyll` ফাইল কখনো মুছবেন না।** মুছলে অ্যাপে আবার অ্যাড্রেস বার দেখা যাবে।
+> **Never delete `.well-known` or `.nojekyll`.** Without them the app will show the browser address bar again.
 
 ---
 
@@ -42,11 +59,12 @@ This is the **root repository** of the `saiful-987-yu.github.io` domain. It hold
 | অ্যাপের নাম · App name | Amader Elaka |
 | Package ID | `io.github.saiful987yu.amaderelaka` |
 | ধরন · Type | Trusted Web Activity (TWA), [PWABuilder](https://www.pwabuilder.com) দিয়ে তৈরি · built with PWABuilder |
+| বর্তমান ভার্সন · Current version | v1.0.0 |
 | লোড হয় · Loads | `https://saiful-987-yu.github.io/amader-elaka/` |
 | Signing certificate SHA-256 | `38:2F:15:11:C7:50:95:CF:29:8E:FB:B0:08:84:4D:7F:5E:36:6E:C1:E1:5E:3D:44:62:0C:6A:18:39:2F:99:B6` |
 
 এই fingerprint গোপন তথ্য নয়, এটি `assetlinks.json`-এ প্রকাশ্যে থাকাই নিয়ম।
-This fingerprint is not a secret; it is meant to be public inside `assetlinks.json`.
+*This fingerprint is not a secret; it is meant to be public inside `assetlinks.json`.*
 
 ---
 
@@ -58,10 +76,9 @@ This fingerprint is not a secret; it is meant to be public inside `assetlinks.js
 - ✅ নতুন কোড বা ডিজাইন ইনস্টল করা অ্যাপে নিজে থেকেই দেখা যায়।
 - 🔁 নতুন APK লাগে কেবল অ্যাপের নাম, আইকন, package বা signing key বদলালে।
 
-The app wraps the live website, so:
+*The app wraps the live website, so updating the site in the `amader-elaka` repository updates every installed app. A new APK is only needed if the app name, icon, package ID or signing key changes.*
 
-- ✅ Updating the site in the `amader-elaka` repository updates every installed app. No new APK is needed.
-- 🔁 A new APK is only needed if the app name, icon, package ID or signing key changes.
+**নতুন APK প্রকাশের নিয়ম · Publishing a new APK:** `amader-elaka` → **Releases → Draft a new release** → নতুন tag (যেমন `v1.0.1`) → APK আপলোড (ফাইলের নাম `Amader-Elaka.apk` রাখুন, তাহলে ডাউনলোড লিংক একই থাকবে) → **Publish release**।
 
 ---
 
@@ -73,7 +90,7 @@ The app wraps the live website, so:
 | `assetlinks.json`-এর package ও fingerprint ঠিক রাখুন | অ্যাপ ও key না বদলে এই ফাইল এডিট করবেন না |
 | APK শুধু নির্ভরযোগ্য লিংক থেকে শেয়ার করুন | কীস্টোর পাসওয়ার্ড কাউকে দেবেন না |
 
-Keep the keystore backed up privately. If it is lost, future updates of the same app can no longer be signed.
+*Keep the keystore backed up privately. If it is lost, future updates of the same app can no longer be signed.*
 
 ---
 
