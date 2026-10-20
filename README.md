@@ -11,6 +11,35 @@
 
 ---
 
+## 🔗 শর্টকাট লিংক · Quick links
+
+শেয়ার বা কপি করার জন্য ছোট লিংক। *Short links to share or copy.*
+
+| | লিংক · Link | কাজ · Opens |
+|---|---|---|
+| 🌐 **ওয়েবসাইট · Website** | [`tinyurl.com/Amader-Elaka`](https://tinyurl.com/Amader-Elaka) | আমাদের এলাকা ওয়েবসাইট · The Amader Elaka website |
+| 📱 **অ্যাপ ডাউনলোড · App download** | [`tinyurl.com/Amader-Elaka-Apps`](https://tinyurl.com/Amader-Elaka-Apps) | সর্বশেষ APK সরাসরি ডাউনলোড · Direct download of the latest APK |
+
+**কপি করুন · Copy:**
+
+```
+https://tinyurl.com/Amader-Elaka
+```
+
+```
+https://tinyurl.com/Amader-Elaka-Apps
+```
+
+> [!NOTE]
+> **পুরোনো সাইট · Old site:** আগের *আমাদের ড্রাইভার* সাইটের লিংক [`tinyurl.com/Amader-Driver`](https://tinyurl.com/Amader-Driver)। দেয়ালের পুরোনো QR কোড ও আগের ইউজারদের জন্য এটি এখনো চালু আছে; পরে সবাইকে নতুন সাইট ও অ্যাপে আনা হবে।
+> The earlier *Amader Driver* site — still running for old wall QR codes and existing users, to be moved to the new site and app later.
+>
+> ```
+> https://tinyurl.com/Amader-Driver
+> ```
+
+---
+
 ## 📱 অ্যাপ ইনস্টল করুন · Install the app
 
 | ধাপ · Step | করণীয় · What to do |
