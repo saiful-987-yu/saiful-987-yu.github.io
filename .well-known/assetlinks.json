@@ -1,12 +1,8 @@
-[
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "io.github.saiful987yu.amaderelaka",
-      "sha256_cert_fingerprints": [
-        "REPLACE_WITH_SHA256_FINGERPRINT_FROM_PWABUILDER"
-      ]
-    }
-  }
-]
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.saiful987yu.amaderelaka",
+        "sha256_cert_fingerprints": ["38:2F:15:11:C7:50:95:CF:29:8E:FB:B0:08:84:4D:7F:5E:36:6E:C1:E1:5E:3D:44:62:0C:6A:18:39:2F:99:B6"]
+      }
+    }]
